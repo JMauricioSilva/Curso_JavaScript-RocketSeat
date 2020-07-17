@@ -1,26 +1,24 @@
 <html>
     <head>
-        <titlre>Curso de Javascript Com a Rocketseat</titlre>
+        <title>Curso de Javascript Com a Rocketseat</title>
     </head>
     <body>
         <script>
-            console.log("Hello World");
-            // Declaração de variavel
-            var nome = 'Joao';
-            var idade = 23;
-            var peso = 65;
-            var sexo = 'Mausculino';
-            
-            var pessoas = ['José', 'Carlos', 'Miguel'];
 
-            var cliente =  {
-                nome: 'Carlos',
-                idade: 34,
-                peso: 80 
-            };
+        var endereco = {
+            rua: "Rua dos Pinheiros",
+            numero: 1234,
+            bairro: "Centro",
+            cidade: "São Paulo",
+            uf: "sp"
+        };
 
-            console.log(pessoas);
-            console.log(cliente);
+        function exibir(endereco) {
+            return endereco;
+        };
+
+        console.log(exibir(endereco));
+        
 
         </script>
     </body>
